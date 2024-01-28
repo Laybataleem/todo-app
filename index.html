@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div class="main">
+        <p> MY TO-DO-APP</p>
+        
+
+    
+
+        <button class="open" ><a href="#next" class="next1">OPEN IT</a> </button>
+
+    </div>
+<section id="next">
+    <div id="work">
+        <div class="doing-work">
+            <button class="btn-close" onclick="alldeletevalue()">&times;</button>
+            <div class="above">
+                <h1>Personal</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                    class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
+                </svg>
+            </div>
+
+            <ul class="set" id="showvalue">
+                <li> <input type="checkbox"> take medicine</li>
+                <li> <input type="checkbox"> take medicine</li>
+                <li> <input type="checkbox"> take medicine</li>
+                <li> <input type="checkbox" > take medicine</li>
+            </ul>
+            <hr />
+            <div class="add">
+                <input type="text" placeholder="enter a tasks" id="addtext">
+                <button class="set-btn" onclick="addTask()"> + ADD TASK</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</section>
+</body>
+<script src="todo.js"></script>
+</html>
